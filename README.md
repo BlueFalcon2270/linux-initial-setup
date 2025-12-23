@@ -2,7 +2,6 @@
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
-<br><br>
 
 A simple, automated script to prepare a fresh Linux server for production.
 Instead of running multiple commands manually, this script handles the essential configuration in one click.
