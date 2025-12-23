@@ -5,6 +5,7 @@
 
 A simple, automated script to prepare a fresh Linux server for production.
 Instead of running multiple commands manually, this script handles the essential configuration in one click.
+<br><br>
 
 ## 🚀 Quick Install
 
