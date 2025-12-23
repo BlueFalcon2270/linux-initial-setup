@@ -22,6 +22,7 @@ wget -O setup.sh https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-
 | **Debian** (All Versions) | ✅ |
 | **Kali Linux** | ✅ |
 | **Linux Mint** | ✅ |
+
 <br><br>
 
 ## 📋 Script Features – Executed in order:
