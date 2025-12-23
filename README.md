@@ -26,8 +26,7 @@ wget -O setup.sh [https://raw.githubusercontent.com/BlueFalcon2270/linux-initial
 
 ## 📋 Script Features – Executed in order:
 ### 1️⃣ Change Root Password
-The script first runs a command that forces you to set a new, secure password for the root user.  
-This helps protect the system from the very beginning.
+The script first runs a command that forces you to set a new, secure password for the root user. This helps protect the system from the very beginning.
 <br><br>
 
 ### 2️⃣ Update & Upgrade the System
