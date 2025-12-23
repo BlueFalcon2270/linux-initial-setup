@@ -4,8 +4,9 @@
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 A simple, automated script to prepare a fresh Linux server for production.
-It changes the root password, updates the system, and installs essential tools in one step.
+This script provides a simple menu interface to changes the root password, updates the system, and installs essential tools.
 Instead of running multiple commands manually, this script handles the essential configuration in one click.
+
 <br><br>
 
 ## 🚀 Quick Install
@@ -25,9 +26,10 @@ wget -O setup.sh https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-
 
 <br>
 
-## 📋 Script Features – Executed in order:
+## 📋 Script Features
 ### 1️⃣ Change Root Password
-The script first runs a command that forces you to set a new, secure password for the root user. This helps protect the system from the very beginning.
+Runs a command that prompts you to set a new, secure password for the root user.  
+This helps secure the system from the very beginning.
 <br>
 
 ### 2️⃣ Update & Upgrade the System
@@ -35,7 +37,7 @@ It refreshes the package list and installs the latest available security patches
 <br>
 
 ### 3️⃣ Install Essential Tools
-The script installs a set of commonly used utilities to make the system ready for daily use:
+Installs a set of commonly used utilities to prepare the system for daily use:
 - **nano** – Simple terminal text editor  
 - **curl** & **wget** – Tools for downloading files from the internet  
 - **git** – Required for cloning and managing repositories  
@@ -43,3 +45,7 @@ The script installs a set of commonly used utilities to make the system ready fo
 - **htop** – Interactive system monitor (CPU & RAM usage)  
 - **net-tools** – Networking utilities  
 - **ufw** – Firewall (installed but left unconfigured)
+<br><br>
+
+
+
