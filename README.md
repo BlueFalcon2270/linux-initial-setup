@@ -12,7 +12,9 @@ Copy and run this single command:
 ```bash
 wget -O setup.sh [https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-setup/main/setup.sh](https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-setup/main/setup.sh) && sudo bash setup.sh
 ```
-### ✅ Supported Systems
+<br><br>
+
+## ✅ Supported Systems
 
 | Distribution | Compatibility |
 | :--- | :---: |
