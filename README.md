@@ -28,28 +28,35 @@ wget -O setup.sh [https://raw.githubusercontent.com/BlueFalcon2270/linux-initial
 
 Copy and run this single command:
 
-📋 Script Features
-Here is exactly what the script does, in order:
+## 📋 Script Features
 
-1️⃣ First: Change Root Password
-The script immediately runs sudo passwd root. This forces you to set a new, secure password for the root user to ensure your server is safe from the start.
+This script performs the following actions **in order**:
 
-2️⃣ Second: Update & Upgrade
-It automatically refreshes the package lists and installs the latest security patches and software updates (apt update && apt upgrade -y).
+---
 
-3️⃣ Third: Install Essential Tools
-It installs a standard kit of utilities so you have everything you need ready to go:
+### 1️⃣ Set Root Password
+Prompts you to set a new password for the `root` user by running:
 
-nano: A simple text editor.
+`sudo passwd root`
 
-curl & wget: Tools to download files from the internet.
+This helps secure the system immediately after setup.
 
-git: Required to clone repositories.
+---
 
-unzip: To extract zip archives.
+### 2️⃣ Update System Packages
+Updates the package list and installs the latest security and software updates:
 
-htop: A visual task manager to monitor your server's RAM and CPU.
+`apt update && apt upgrade -y`
 
-net-tools: Networking commands (like ifconfig).
+---
 
-ufw: The default firewall (installed but left for you to configure).
+### 3️⃣ Install Essential Tools
+Installs commonly used utilities required for daily server management:
+
+- **nano** – Simple terminal text editor  
+- **curl** & **wget** – Download tools  
+- **git** – Clone and manage repositories  
+- **unzip** – Extract ZIP archives  
+- **htop** – Interactive system monitor (CPU & RAM)  
+- **net-tools** – Networking utilities (e.g. `ifconfig`)  
+- **ufw** – Firewall (installed but not configured)
