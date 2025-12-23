@@ -24,7 +24,7 @@ wget -O setup.sh [https://raw.githubusercontent.com/BlueFalcon2270/linux-initial
 | **Linux Mint** | ✅ |
 <br><br>
 
-## 📋 Script Features
+## 📋 Script Features – Executed in order:
 ### This Script Performs The Following Actions in order:
 
 ### 1️⃣ Change Root Password
