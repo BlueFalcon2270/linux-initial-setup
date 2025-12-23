@@ -7,6 +7,8 @@
 Instead of running multiple commands manually, this script handles the essential configuration in one click.
 
 ## 🚀 Quick Install
+
+
 Copy and run this single command:
 
 
