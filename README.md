@@ -9,6 +9,7 @@ Instead of running multiple commands manually, this script handles the essential
 ## 🚀 Quick Install
 
 dfhdfgh
+
 Copy and run this single command:
 
 
