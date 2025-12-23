@@ -6,7 +6,6 @@
 A simple, automated script to prepare a fresh Linux server for production.
 This script provides a simple menu interface to changes the root password, updates the system, and installs essential tools.
 Instead of running multiple commands manually, this script handles the essential configuration in one click.
-
 <br><br>
 
 ## 🚀 Quick Install
