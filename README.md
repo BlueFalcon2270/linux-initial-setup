@@ -34,29 +34,24 @@ This script performs the following actions **in order**:
 
 ---
 
-### 1️⃣ Set Root Password
-Prompts you to set a new password for the `root` user by running:
-
-`sudo passwd root`
-
-This helps secure the system immediately after setup.
+### 1️⃣ Change Root Password
+The script first runs a command that forces you to set a new, secure password for the root user.  
+This helps protect the system from the very beginning.
 
 ---
 
-### 2️⃣ Update System Packages
-Updates the package list and installs the latest security and software updates:
-
-`apt update && apt upgrade -y`
+### 2️⃣ Update & Upgrade the System
+It refreshes the package list and installs the latest available security patches and software updates.
 
 ---
 
 ### 3️⃣ Install Essential Tools
-Installs commonly used utilities required for daily server management:
+The script installs a set of commonly used utilities to make the system ready for daily use:
 
 - **nano** – Simple terminal text editor  
-- **curl** & **wget** – Download tools  
-- **git** – Clone and manage repositories  
+- **curl** & **wget** – Tools for downloading files from the internet  
+- **git** – Required for cloning and managing repositories  
 - **unzip** – Extract ZIP archives  
-- **htop** – Interactive system monitor (CPU & RAM)  
-- **net-tools** – Networking utilities (e.g. `ifconfig`)  
-- **ufw** – Firewall (installed but not configured)
+- **htop** – Interactive system monitor (CPU & RAM usage)  
+- **net-tools** – Networking utilities  
+- **ufw** – Firewall (installed but left unconfigured)
