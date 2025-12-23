@@ -8,9 +8,7 @@ Instead of running multiple commands manually, this script handles the essential
 
 ## 🚀 Quick Install
 Copy and run this single command:
-Line one
 
-Line two
 
 ```bash
 wget -O setup.sh [https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-setup/main/setup.sh](https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-setup/main/setup.sh) && sudo bash setup.sh
