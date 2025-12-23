@@ -9,6 +9,7 @@ Instead of running multiple commands manually, this script handles the essential
 ***
 * * *
 ___
+___
 ## 🚀 Quick Install
 
 Copy and run this single command:
