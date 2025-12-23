@@ -4,6 +4,7 @@
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 A simple, automated script to prepare a fresh Linux server for production.
+It changes the root password, updates the system, and installs essential tools in one step.
 Instead of running multiple commands manually, this script handles the essential configuration in one click.
 <br><br>
 
