@@ -22,7 +22,7 @@ wget -O setup.sh https://raw.githubusercontent.com/BlueFalcon2270/linux-initial-
 | **Kali Linux** | ✅ |
 | **Linux Mint** | ✅ |
 
-<br><br>
+<br>
 
 ## 📋 Script Features – Executed in order:
 ### 1️⃣ Change Root Password
